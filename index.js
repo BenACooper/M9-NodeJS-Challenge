@@ -11,23 +11,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "What was your motivation?",
-    name: "projectMotivation",
-  },
-  {
-    type: "input",
     message: "Why did you build this project?",
     name: "projectPurpose",
-  },
-  {
-    type: "input",
-    message: "What problem does it solve?",
-    name: "problemSolved",
-  },
-  {
-    type: "input",
-    message: "What did you learn?",
-    name: "lessonsLearned",
   },
   {
     type: "input",
@@ -64,41 +49,42 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   const readmeContent = `
-    # ${data.projectTitle}
+  # ${data.projectTitle}
     
-    ## Description
-    ${data.projectMotivation}
-    ${data.projectPurpose}
-    ${data.problemSolved}
-    ${data.lessonsLearned}
+  ## Description
+  ${data.projectPurpose}
+   
 
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage) 
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Test](#test)
+  - [Questions](#questions)
 
     
-    ## Installation
-    ${data.installationInstructions}
+  ## Installation
+  ${data.installationInstructions}
     
-    ## Usage
-    ${data.usageInstructions}
-    //Screenshot or Video here
+  ## Usage
+  ${data.usageInstructions}
+  //Screenshot or Video here
 
-    ## License
-    This project is licensed under the ${data.license} License.
+  ## License
+  This project is licensed under the ${data.license} License.
     
-    ## Contributing
-    ${data.contributionGuidelines}
+  ## Contributing
+  ${data.contributionGuidelines}
     
-    ## Test
-    ${data.testInstructions}
+  ## Test
+  ${data.testInstructions}
     
-    ## Questions
-    GitHub: https://github.com/${data.githubUsername}
-    Email: ${data.email}
-    `;
+  ## Questions
+  Do you want to know more? You can reach me at:
+  GitHub: https://github.com/${data.githubUsername}
+  Email: ${data.email}
+  `;
 
   fs.writeFile(fileName, readmeContent, (err) => {
     if (err) {
