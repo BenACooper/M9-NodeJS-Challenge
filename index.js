@@ -16,12 +16,12 @@ const questions = [
   },
   {
     type: "input",
-    message: "What are the installation instructions?",
+    message: "How is the app installed?",
     name: "installationInstructions",
   },
   {
     type: "input",
-    message: "What are the usage instructions?",
+    message: "How is the app used?",
     name: "usageInstructions",
   },
   {
@@ -31,8 +31,17 @@ const questions = [
   },
   {
     type: "input",
-    message: "What are the test instructions?",
+    message: "How can the user test the app?",
     name: "testInstructions",
+  },
+  {
+    type: "list",
+    message: "Which liscence will you choose?",
+    name: "projectLiscence",
+    choices: [
+     "MIT License",
+     "GNU GPLv3 License"
+    ],
   },
   {
     type: "input",
@@ -72,7 +81,7 @@ function writeToFile(fileName, data) {
   //Screenshot or Video here
 
   ## License
-  This project is licensed under the ${data.license} License.
+  This project is licensed under the ${data.projectLiscence}.
     
   ## Contributing
   ${data.contributionGuidelines}

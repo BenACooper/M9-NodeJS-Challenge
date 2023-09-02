@@ -1,8 +1,8 @@
 
-   # README GENERATOR (NodeJS)
+  # 1
     
   ## Description
-   The README GNERATOR is a simple tool for building quality READMEs with consistent formatting.
+  1
    
 
   ## Table of Contents
@@ -12,24 +12,26 @@
   - [Contributing](#contributing)
   - [Test](#test)
   - [Questions](#questions)
+
     
   ## Installation
-   I am not sure right now. I've neer had to install something I made myslf.
+  1
     
   ## Usage
-  Answers prompts in the terminal. User inputs will be used to auto-fill the corresponding README sections.
+  1
   //Screenshot or Video here
 
   ## License
-  This project is licensed under the undefined License.
+  This project is licensed under the MIT License License.
     
   ## Contributing
-  No contributions needed at the moment.
+  1
     
   ## Test
-  Review the generated README file for consistency and formatting.
+  1
     
   ## Questions
-  GitHub: https://github.com/BenACooper
-  Email: secret.email@gmail.com
+  Do you want to know more? You can reach me at:
+  GitHub: https://github.com/1
+  Email: 1
   
