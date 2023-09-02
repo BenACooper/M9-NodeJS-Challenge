@@ -20,7 +20,8 @@
   ## Usage
   The app is used by running "node index.js" in the terminal. This initalizes an interactive prompt to answer some questions about your project such as title, purpose, installation instructions, and more. It is an intuitive guide through the process of documenting information about your project. Your answers will be used to auto-fill the corresponding sections of your project's README.
  
- [Video Demo](https://drive.google.com/file/d/186GEMDX29SF161YDx-HYd6P_uz_sJgh7/view)
+ [Command Line Prompts Demo](https://drive.google.com/file/d/186GEMDX29SF161YDx-HYd6P_uz_sJgh7/view)
+ [Working Table of Contents](https://drive.google.com/file/d/1NEJrpYZmH_ax6_ir4brzdwxH8MhMXOvc/view)
 
   ## License
   This project is licensed under the MIT License.
