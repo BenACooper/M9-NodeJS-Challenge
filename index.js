@@ -91,7 +91,9 @@ function writeToFile(fileName, data) {
     
   ## Questions
   Do you want to know more? You can reach me at:
+  
   GitHub: https://github.com/${data.githubUsername}
+  
   Email: ${data.email}
   `;
 
