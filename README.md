@@ -1,8 +1,8 @@
 
-  # README Generator(NodeJS)
+  # Employee Tracker
     
   ## Description
-  This is a command-line tool used to create high-quality README files for software development projects. It is flexible and can be used to create consistently formatted README for various types of projects, ensuring clear & informative documentation.
+  This is a command-line tool used to view and manage departments, roles and employees within a company. It can used to look up, add or alter employee data.
    
 
   ## Table of Contents
@@ -15,27 +15,25 @@
 
     
   ## Installation
-  The project is installed via the command line: Clone the repository. > Change to the project directory. > Install dependencies("inquirer": "8.2.4").
+  First isntall Node.js. Then clone the repository to your local machine. Navigate to the main dirfectory and install dependencies (inquirer and mysql2). Source schema.sql and seeds.sql and confirm the database exists. Then run using the command "node index.js". Follow the prompts to manage your employee database.
     
   ## Usage
-  The app is used by running "node index.js" in the terminal. This initalizes an interactive prompt to answer some questions about your project such as title, purpose, installation instructions, and more. It is an intuitive guide through the process of documenting information about your project. Your answers will be used to auto-fill the corresponding sections of your project's README.
- 
- [Command Line Prompts Demo](https://drive.google.com/file/d/186GEMDX29SF161YDx-HYd6P_uz_sJgh7/view)
- [Working Table of Contents](https://drive.google.com/file/d/1NEJrpYZmH_ax6_ir4brzdwxH8MhMXOvc/view)
+  An initial set of prompts will guide you through the process. After that simply answer the questions or make the choices as presented. Choosing to view the database can confirm it is working.
+  //Screenshot or Video here
 
   ## License
   This project is licensed under the MIT License.
     
   ## Contributing
-  Any contributions to improve the README Generator are welcome! If you'd like to contribute please follow these steps: Fork the repository. > Create a new feature branch. > Make your changes while commenting your code. > Create a pull request with a descriptive comment.
+  Any contributions to improve the Employee Tracker are welcome! If you'd like to contribute please follow these steps: Fork the repository. > Create a new feature branch. > Make your changes while commenting your code. > Create a pull request with a descriptive comment.
     
   ## Test
-  To test the README Generator you can simply review the the README file for consistence and formatting. The way you word your answers the first time may not fit well in the context of a README.
+  To test the Employee Tracker you can simply follow the prompts to view the database as changes are made.
     
   ## Questions
   Do you want to know more? You can reach me at:
   
   GitHub: https://github.com/BenACooper
   
-  Email: dontdoxmeplz@plz.com
+  Email: benjamin.axel.cooper@gmail.com
   
