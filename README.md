@@ -1,8 +1,8 @@
 
-  # Employee Tracker
+  # PWA Text Editor
     
   ## Description
-  This is a command-line tool used to view and manage departments, roles and employees within a company. It can used to look up, add or alter employee data.
+  This is a progressive web applicatoin text editor that runs in the browser. Its purpose is to create and save code snippets that can be accessed with or without an internet connection. It features multiple data persistence techniques in case one of them is not supported by the browser. It is also capable of functioning offline.
    
 
   ## Table of Contents
@@ -15,20 +15,20 @@
 
     
   ## Installation
-  First isntall Node.js. Then clone the repository to your local machine. Navigate to the main dirfectory and install dependencies (inquirer and mysql2). Source schema.sql and seeds.sql and confirm the database exists. Then run using the command "node index.js". Follow the prompts to manage your employee database.
+  Visit the PWA online. Click the install button at the top left corner. Once installed the icon will be automatically added to your desktop or taskbar depending on your operating system. You can now launch the PWA Text Editor!
     
   ## Usage
-  An initial set of prompts will guide you through the process. After that simply answer the questions or make the choices as presented. Choosing to view the database can confirm it is working.
+  Simply type in your code snippets to the editor. It will color-code your snippets for readability. Any time you change focus away from the app it will autosave the current text in the editor. The next time you run the editor your most recent code snippets should be there! They are saved for 30 days so if the app is not run for 30 days the only content will be the default header.
   //Screenshot or Video here
 
   ## License
   This project is licensed under the MIT License.
     
   ## Contributing
-  Any contributions to improve the Employee Tracker are welcome! If you'd like to contribute please follow these steps: Fork the repository. > Create a new feature branch. > Make your changes while commenting your code. > Create a pull request with a descriptive comment.
+  Fork the repository on GitHub. Clone your forked repository to your local machine. Create a new branch for your feature or fix and comment your code. When you are ready to submit your changes please create a Pull Request with a clear title, list of features/fixes/changes and new dependencies.
     
   ## Test
-  To test the Employee Tracker you can simply follow the prompts to view the database as changes are made.
+  To test the app simply use the editor and check if your snippets are being saved when you reload or relaunch it. If it is not working you can inspect the browser console for errors. 
     
   ## Questions
   Do you want to know more? You can reach me at:
